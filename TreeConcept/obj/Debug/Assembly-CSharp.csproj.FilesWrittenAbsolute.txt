@@ -1,0 +1,17 @@
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/obj/Debug/Assembly-CSharp.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/UnityEngine.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/UnityEditor.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Mono.Cecil.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Unity.DataContract.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/josephtleiferman/Documents/gitHub/FloatyGame/TreeConcept/Temp/bin/Debug/Mono.Cecil.Mdb.dll
