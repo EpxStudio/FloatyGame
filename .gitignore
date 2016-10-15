@@ -30,3 +30,9 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.log
+=======
+
+# Others we really don't like
+
+*.dll
+*.xml
