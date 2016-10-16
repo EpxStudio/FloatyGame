@@ -33,11 +33,3 @@ sysinfo.txt
 =======
 
 # Others we really don't like
-
-*.dll
-*.xml
-TreeConcept/Library/assetDatabase3
-TreeConcept/Library/metadata/00/00000000000000004000000000000000
-TreeConcept/Library/shadercompiler-UnityShaderCompiler.exe0.log
-TreeConcept/Library/shadercompiler-UnityShaderCompiler.exe0.log
-TreeConcept/Temp/UnityLockfile
