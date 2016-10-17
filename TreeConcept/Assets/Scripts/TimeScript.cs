@@ -5,6 +5,15 @@ public class TimeScript : MonoBehaviour
 {
 	static DateTime StartTime;
 	public static int MinutesPerDay = 3;
+	public static int TotalDays = 10;
+
+	public static int TotalTicks
+	{
+		get
+		{
+			return 180000 * TotalDays;
+		}
+	}
 	
 	// Use this for initialization
 	void Start()
@@ -27,9 +36,9 @@ public class TimeScript : MonoBehaviour
 		);
 	}
 
-	//There are 18000 ticks in a day
-	//9000 ticks for day and 9000 ticks for night
-	//150 ticks per real-world second
+	//There are 180000 ticks in a day
+	//90000 ticks for day and 9000 ticks for night
+	//1500 ticks per real-world second
 	public static int GetTick()
 	{
 		var sub = DateTime.Now.Subtract(StartTime);
@@ -48,8 +57,8 @@ public class TimeScript : MonoBehaviour
 		);
 	}
 
-	public static int GetTotalTick()
+	public static int GetTotalTickCount()
 	{
-		return (18000 * GetDay()) + GetTick();
+		return (180000 * GetDay()) + GetTick();
 	}
 }
