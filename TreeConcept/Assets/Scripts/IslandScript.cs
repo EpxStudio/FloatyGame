@@ -20,16 +20,11 @@ public class IslandScript : MonoBehaviour
 
 		totalRocks = Rocks.Count;
 		ticksPerRock = TimeScript.TotalTicks / totalRocks;
-
-		Debug.Log(totalRocks);
-		Debug.Log(ticksPerRock);
 	}
 	
 	// Update is called once per frame
 	void Update()
 	{
-		Debug.Log("Ticks: " + TimeScript.GetTotalTickCount());
-		Debug.Log("Next barrier: " + deletedRocks * ticksPerRock);
 		if (TimeScript.GetTotalTickCount() > deletedRocks * ticksPerRock)
 		{
 			var farthest = Rocks[0];
