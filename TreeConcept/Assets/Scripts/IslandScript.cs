@@ -25,6 +25,7 @@ public class IslandScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		/*
 		if (TimeScript.GetTotalTickCount() > deletedRocks * ticksPerRock)
 		{
 			var farthest = Rocks[0];
@@ -40,6 +41,6 @@ public class IslandScript : MonoBehaviour
 			farthest.GetComponent<Rigidbody2D>().isKinematic = false;
 			Rocks.Remove(farthest);
 			deletedRocks++;
-		}
+		}*/
 	}
 }
