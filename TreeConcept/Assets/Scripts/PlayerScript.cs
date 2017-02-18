@@ -16,6 +16,7 @@ public class PlayerScript : MonoBehaviour
 	public float maxSpeed = 1f;
 	public float moveForce = 25f;
 	public float jumpForce = 1000f;
+	public GameObject ToFlip;
 
 
 
@@ -25,6 +26,8 @@ public class PlayerScript : MonoBehaviour
 		anim = GetComponent<Animator>();
 		rb2d = GetComponent<Rigidbody2D>();
 	}
+
+	private bool canFlip = true;
 	
 	void Update()
 	{// we only cast layer on ground layer
@@ -34,6 +37,16 @@ public class PlayerScript : MonoBehaviour
 			jump = true;
 			Grounded = false;
 			//flag = true;
+		}
+
+		if (Input.GetKeyDown(KeyCode.F) && canFlip)
+		{
+			ToFlip.transform.Rotate(new Vector3(180, 0, 0));
+			canFlip = false;
+		}
+		else if (Input.GetKeyUp(KeyCode.F))
+		{
+			canFlip = true;
 		}
 
 	}
